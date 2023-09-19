@@ -6,8 +6,9 @@ const axios = require('axios');
 const app = express();
 const bodyParser = require('body-parser');
 
-const base_url = 'https://node50198-aektawan2.proen.app.ruk-com.cloud';
-// const base_url = 'https://node50125-jsapp.proen.app.ruk-com.cloud/';
+
+
+const base_url = 'http://localhost:3000/';
 
 
 app.set('view engine', 'ejs');
