@@ -7,8 +7,9 @@ const app = express();
 const bodyParser = require('body-parser');
 
 
-const base_url = 'http://node50198-aektawan2.proen.app.ruk-com.cloud';
 
+// const base_url = 'http://localhost:3000';
+const base_url = 'http://node50198-aektawan2.proen.app.ruk-com.cloud';
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
@@ -86,4 +87,4 @@ app.get("/delete/:id", async (req, res) => {
 
 app.listen(8080, () => {
     console.log('Listening on port 8080');
-});//
+});
