@@ -7,7 +7,6 @@ const app = express();
 const bodyParser = require('body-parser');
 
 
-
 const base_url = 'http://node50198-aektawan2.proen.app.ruk-com.cloud';
 
 
