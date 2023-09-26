@@ -7,11 +7,11 @@ const { prototype } = require('events');
 
 const base_url = 'https://node50138-nodetest.proen.app.ruk-com.cloud';
 
-app.set("views", path.join(__dirname, "/public/views"));
+//app.set("views", path.join(__dirname, "/public/views"));
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(express.static(__dirname + "/public"));
+//app.use(express.static(__dirname + "/public"));
 
 app.get('/', async (req, res) => {
     try{
